@@ -14,8 +14,6 @@ with open(path, encoding='utf') as csvfile:
 
     csv_header = next(csvfile)
 
-    rowcount = 0
-
     for row in csvreader:
 
         profitloss += int(row[1])
